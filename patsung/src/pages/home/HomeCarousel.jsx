@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import CourosalImage1 from "../../assets/Images/HomeCorsosalImage/Image1.jpg"
+import CourosalImage1 from "../../assets/Images/HomeCorsosalImage/bg-img1.jpg"
+import  CourosalImage2 from "../../assets/Images/HomeCorsosalImage/bg-img2.jpg"
+import CourosalImage3 from "../../assets/Images/HomeCorsosalImage/bg-img3.jpg"
 
 const HomeCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -15,13 +17,13 @@ const HomeCarousel = () => {
     {
       title: "Quality Cookware",
       subtitle: "for every kitchen need.",
-      image: "/carousel/slide2.jpg",
+      image: CourosalImage2,
       textColor: "text-[#1e3799]"
     },
     {
       title: "Smart Solutions",
       subtitle: "for modern cooking.",
-      image: "/carousel/slide3.jpg",
+      image: CourosalImage3,
       textColor: "text-[#1e3799]"
     },
   ];

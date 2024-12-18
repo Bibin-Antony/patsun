@@ -1,4 +1,9 @@
 import React from 'react';
+import PatsunCookers from "../../assets/Images/TopCategories/PatsunCookers.jpg";
+import PatsunAppliences from "../../assets/Images/TopCategories/PatsunSmallAppliance.jpg";
+import PatsunCookware from "../../assets/Images/TopCategories/PatsunCookware.jpg";
+import PatsunGasStove from "../../assets/Images/TopCategories/PatsunGasStove.jpg";
+import PatsunElectricKettle from "../../assets/Images/TopCategories/PatsunElectricKettle.jpg";
 
 const CategoryCard = ({ title, image, link }) => (
   <a 
@@ -21,28 +26,28 @@ const TopCategories = () => {
   const categories = [
     {
       title: 'Pressure Cookers',
-      image: '/images/categories/pressure-cookers.jpg', // Replace with your image paths
+      image: PatsunCookers, // Replace with your image paths
       link: '/category/pressure-cookers'
     },
     {
       title: 'Small Appliances',
-      image: '/images/categories/small-appliances.jpg',
+      image: PatsunAppliences,
       link: '/category/small-appliances'
     },
     {
       title: 'Cookware Products',
-      image: '/images/categories/cookware.jpg',
+      image: PatsunCookware,
       link: '/category/cookware'
     },
     {
       title: 'Gas Stove',
-      image: '/images/categories/gas-stove.jpg',
+      image: PatsunGasStove,
       link: '/category/gas-stove'
     },
     {
-      title: 'Mixer Grinder',
-      image: '/images/categories/mixer-grinder.jpg',
-      link: '/category/mixer-grinder'
+      title: 'Electric Kettle',
+      image: PatsunElectricKettle,
+      link: '/category/electrical-appliances'
     }
   ];
 
