@@ -1,19 +1,15 @@
 // src/data/products.js
 import PressureCooker3L from "../assets/Images/ProductImages/PATSUNGPressureCooker3Litre.jpg";
+import NonStickCookware from "../assets/Images/ProductImages/PatsungNon-StickCookwareSet.jpeg";
+import ElectricKettle from "../assets/Images/ProductImages/PatsungElectricKettle1.5L.jpg";
+import GasStove2Burners from "../assets/Images/ProductImages/PatsungGasStove.jpg";
+import PatsungVegetableAndFruitChopper from "../assets/Images/ProductImages/PatsungVegetable&FruitChopper.jpg";
+import PatsungPlasticVegetableAndFruitChopper1 from "../assets/Images/ProductImages/PatsungVegetable&FruitChopper1.jpg";
+import PatsungHardAnodizedKadai5L from "../assets/Images/ProductImages/PATSUNGPressureCooker5Litre.jpg"
 
 export const products = [
     {
         id: 1,
-        sku: '42561',
-        name: 'Prestige Endura Pro 1000W Mixer Grinder',
-        price: 9800,
-        originalPrice: 13995,
-        image: 'https://via.placeholder.com/400',
-        category: 'mixer-grinder',
-        description: 'Ball bearing motor for efficient performance| 5 years warranty'
-    },
-    {
-        id: 2,
         sku: '42562',
         name: 'Patsung Aluminium Pressure Cooker 3L',
         price: 799,
@@ -23,113 +19,64 @@ export const products = [
         description: 'Heavy duty aluminum body| 5 years warranty| Induction compatible'
     },
     {
-        id: 3,
+        id: 2,
         sku: '42563',
         name: 'Patsung Non-Stick Cookware Set',
-        price: 3999,
-        originalPrice: 5999,
-        image: 'https://via.placeholder.com/400',
+        price: 11594,
+        originalPrice: 11594,
+        image: NonStickCookware,
         category: 'cookware',
-        description: '4-piece premium non-stick set| Includes kadai, tawa, and frying pan'
+        description: '3-piece premium non-stick set| Includes kadai, tawa, and frying pan'
     },
     {
-        id: 4,
+        id: 3,
         sku: '42564',
         name: 'Patsung Electric Kettle 1.5L',
-        price: 1499,
-        originalPrice: 2499,
-        image: 'https://via.placeholder.com/400',
+        price: 637,
+        originalPrice: 749,
+        image: ElectricKettle,
         category: 'electrical-appliances',
         description: 'Auto shut-off| Fast boiling| Stainless steel body'
     },
     {
-        id: 5,
+        id: 4,
         sku: '42565',
-        name: 'Patsung 3 Burner Gas Stove',
-        price: 4999,
-        originalPrice: 7999,
-        image: 'https://via.placeholder.com/400',
+        name: 'Patsung 2 Burner Gas Stove',
+        price: "Currently unvailable",
+        originalPrice: "Not Available",
+        image: GasStove2Burners,
         category: 'gas-stove',
         description: 'High efficiency brass burners| Toughened glass top| 2 years warranty'
     },
     {
-        id: 6,
+        id: 5,
         sku: '42566',
-        name: 'Patsung Food Processor 750W',
-        price: 7499,
-        originalPrice: 9999,
-        image: 'https://via.placeholder.com/400',
+        name: 'Patsung Plastic Vegetable & Fruit Chopper(Blue)',
+        price: 299,
+        originalPrice: 499,
+        image: PatsungVegetableAndFruitChopper,
         category: 'food-preparation',
-        description: '12 attachments| Multiple speed settings| Premium build quality'
+        description: 'It comes with three stainless-steel blades that can cut everything from fruits to vegetables with ease. You can also remove the attachments of this chopper and clean them in a hassle-free way.'
+    },
+
+    {
+        id: 6,
+        sku: '42569',
+        name: 'Patsung Plastic Vegetable & Fruit Chopper (Black)',
+        price: 294,
+        originalPrice: 499,
+        image: PatsungPlasticVegetableAndFruitChopper1,
+        category: 'food-preparation',
+        description: 'The solid stainless steel blades perfectly chops hard and soft vegetables as per your requirement. No electricity is required for the same.'
     },
     {
         id: 7,
-        sku: '42567',
-        name: 'Patsung Induction Cooktop',
-        price: 2999,
-        originalPrice: 4499,
-        image: 'https://via.placeholder.com/400',
-        category: 'electrical-appliances',
-        description: 'Touch control| 8 preset menus| Auto shut-off'
-    },
-    {
-        id: 8,
-        sku: '42568',
-        name: 'Patsung Rice Cooker 1.8L',
-        price: 2299,
-        originalPrice: 3499,
-        image: 'https://via.placeholder.com/400',
-        category: 'electrical-appliances',
-        description: 'Keep warm function| Non-stick coating| Includes steaming tray'
-    },
-    {
-        id: 9,
-        sku: '42569',
-        name: 'Patsung Hand Blender Set',
-        price: 1999,
-        originalPrice: 2999,
-        image: 'https://via.placeholder.com/400',
-        category: 'food-preparation',
-        description: '600W motor| Multiple attachments| Variable speed control'
-    },
-    {
-        id: 10,
         sku: '42570',
-        name: 'Patsung Hard Anodized Kadai 3L',
-        price: 1499,
-        originalPrice: 2499,
-        image: 'https://via.placeholder.com/400',
+        name: 'Patsung 5 Litre Wrought Aluminium Induction Bottom Pressure Cooker (Pack of 3)',
+        price: 6584,
+        originalPrice: 6584,
+        image: PatsungHardAnodizedKadai5L,
         category: 'cookware',
         description: 'Durable construction| Induction compatible| Glass lid included'
     },
-    {
-        id: 11,
-        sku: '42571',
-        name: 'Patsung Sandwich Maker',
-        price: 1299,
-        originalPrice: 1999,
-        image: 'https://via.placeholder.com/400',
-        category: 'electrical-appliances',
-        description: 'Non-stick plates| Power indicator| Cool touch handle'
-    },
-    {
-        id: 12,
-        sku: '42572',
-        name: 'Patsung Kitchen Knife Set',
-        price: 999,
-        originalPrice: 1499,
-        image: 'https://via.placeholder.com/400',
-        category: 'kitchen-tools',
-        description: '6-piece set| Stainless steel| Ergonomic handles'
-    },
-    {
-        id: 13,
-        sku: '42572',
-        name: 'Patsung Kitchen Knifeergerer',
-        price: 999,
-        originalPrice: 1499,
-        image: 'https://via.placeholder.com/400',
-        category: 'kitchen-tools',
-        description: '6-piece set| Stainless steel| Ergonomic handles'
-    }
 ];
